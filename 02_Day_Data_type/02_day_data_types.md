@@ -1,18 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of JavaScript: Data Types</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
-  </sub>
-</div>
-</div>
 
 [<< Day 1](../readMe.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
 
@@ -20,8 +5,8 @@
 
 - [📔 Day 2](#-day-2)
 	- [Data Types](#data-types)
-		- [Primitive Data Types](#primitive-data-types)
-		- [Non-Primitive Data Types](#non-primitive-data-types)
+		- [Primitive Data Types(Nguyên thủy)](#primitive-data-types)
+		- [Non-Primitive Data Types(không nguyên thủy)](#non-primitive-data-types)
 	- [Numbers](#numbers)
 		- [Declaring Number Data Types](#declaring-number-data-types)
 		- [Math Object](#math-object)
