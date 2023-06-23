@@ -1,4 +1,3 @@
-# 30-day-javascript
 # 30 Days Of JavaScript
 
 | # Day |                                                                       Topics                                                                        |
