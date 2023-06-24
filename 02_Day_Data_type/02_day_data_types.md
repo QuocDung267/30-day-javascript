@@ -28,4 +28,35 @@
 		- [Exercise: Level 1](#exercise-level-1)
 		- [Exercise: Level 2](#exercise-level-2)
 		- [Exercises: Level 3](#exercises-level-3)
+# 📔 Day 2
+## Loại dữ liệu
+Dữ liệu được chia thành 2 loại:
+1. Primitive data types (kiểu nguyên thủy)
+2. Non-primitive data types(Object References - không nguyên thủy)
+
+### Primitive data types (kiểu nguyên thủy)
+
+Loại dữ liệu nguyên thủy trong Javascript bao gồm:
+
+1. Number: Integers, floats
+2. Strings: Chuỗi
+3. Booleans: Giá trị true hoặc False
+4. Null: Dữ liệu rỗng, không có giá trị
+5. Undefined: Biến được khai báo không có giá trị
+6. Symbol: Một giá trị duy nhật được tạo bởi symbol
+
+### Non-primitive data types(Object References - không nguyên thủy)
+
+Non-primitive data types bao gồm:
+
+1. Object
+2. Array
+
+Các kiểu duwxx liệu nguyên thủy là các kiểu dữ liệu bất biến (không thể sửa đổi). Khi chúng được khởi tạo và không được sửa đổi nó
+
+**Ví dụ:**
+```js
+let word = 'JavaScript'
+```
+
 
