@@ -52,11 +52,44 @@ Non-primitive data types bao gồm:
 1. Object
 2. Array
 
-Các kiểu duwxx liệu nguyên thủy là các kiểu dữ liệu bất biến (không thể sửa đổi). Khi chúng được khởi tạo và không được sửa đổi nó
+Các kiểu dữ liệu nguyên thủy là các kiểu dữ liệu bất biến (không thể sửa đổi). Khi chúng được khởi tạo và không được sửa đổi nó
 
 **Ví dụ:**
 ```js
 let word = 'JavaScript'
 ```
+### Non-Primitive Data Types - kiểu dữ liệu không nguyên thủy
 
+- Các kiểu dữ liệu không nguyên thủy có thể sửa đổi hoặc thay đổi 
+
+**Ví dụ:**
+
+```js
+let nums = [1, 2, 3]
+nums[0] = 10
+
+console.log(nums)  // [10, 2, 3]
+```
+Như vậy cho thấy *Mảng* là kiểu dữ liệu không nguyên thủy có thể thay đổi được. Các loại dữ liệu không nguyên thủy không thể so sánh theo giá trị được. Ngay khi cả hai đều có chung thuộc tính và giá trị, chúng không hoàn toàn bằng nhau
+
+```js
+let nums = [1, 2, 3]
+let numbers = [1, 2, 3]
+
+console.log(nums == numbers)  // false
+
+let userOne = {
+name:'Jasson',
+role:'Student',
+country:'Viet Nam'
+}
+
+let userTwo = {
+name:'Jasson',
+role:'Student',
+country:'Viet Nam'
+}
+
+console.log(userOne == userTwo) // false
+```
 
